@@ -1,33 +1,38 @@
-Hunt the Wumpus
-This is a text-based adventure game called "Hunt the Wumpus". The Wumpus lives in a completely dark cave of 20 rooms. Each room has 3 tunnels leading to other rooms.
+# Hunt the Wumpus Game
 
-Installation
-Clone the repository or download the ZIP file and extract the files.
+## Description
+This program is a text-based version of the classic game "Hunt the Wumpus". In this game, the player is placed in a dark cave of 20 rooms, where they must avoid hazards and try to guess which room the Wumpus (a dangerous monster) is located in. The game provides instructions and allows the player to make moves, reset the game, cheat, and exit.
 
-sh
-Copy code
-git clone https://github.com/example/hunt-the-wumpus.git
-Usage
-Run the program from the command line or terminal.
+## Getting Started
+1. Clone the repository to your local machine.
+```bash
+git clone https://github.com/example/hunt-the-wumpus.git 
+```
+2. Open the project in your preferred C compiler.
+```
+hunt-the-wumpus 
+```
+3. Compile and run the program.
+```
+./wumpus 
+```
 
-sh
-Copy code
-cd hunt-the-wumpus
-./wumpus
-Rules of the Game
-The game is played in a dark cave of 20 rooms.
-There are two rooms that have bottomless pits in them. If the player enters one of these rooms, they fall and die.
-The Wumpus is not bothered by the pits, as he has sucker feet. Usually he is asleep. He will wake up if the player enters his room. When the player moves into the Wumpus' room, then he wakes and moves if he is in an odd-numbered room, but stays still otherwise. After that, if he is in the player's room, he snaps the player's neck and the player dies!
-On each move, the player can do the following:
-Move into an adjacent room. To move, enter 'M' followed by a space and then a room number.
-Enter 'R' to reset the person and hazard locations, useful for testing.
-Enter 'C' to cheat and display current board positions.
-Enter 'D' to display the set of instructions.
-Enter 'P' to print the maze room layout.
-Enter 'G' to guess which room the Wumpus is in, to win or lose the game!
-Enter 'X' to exit the game.
-Contributing
-Bug reports and pull requests are welcome on GitHub at https://github.com/example/hunt-the-wumpus.
+## Usage
+1. On each move, the player can do the following:
+   - Move into an adjacent room by entering 'M' followed by a space and then a room number.
+   - Reset the person and hazard locations by entering 'R'.
+   - Cheat and display current board positions by entering 'C'.
+   - Display instructions by entering 'D'.
+   - Print the maze room layout by entering 'P'.
+   - Guess which room the Wumpus is in to win or lose the game by entering 'G'.
+   - Exit the game by entering 'X'.
+2. Follow the instructions provided in the game.
 
-License
-The code is available as open source under the terms of the MIT License.
+## Authors
+- Seyfal Sultanov
+
+## Version History
+- Version 1.0 (September 2021): Initial release
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
