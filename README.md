@@ -10,7 +10,7 @@ git clone https://github.com/example/hunt-the-wumpus.git
 ```
 2. Open the project in your preferred C compiler.
 ```
-hunt-the-wumpus 
+cd hunt-the-wumpus 
 ```
 3. Compile and run the program.
 ```
