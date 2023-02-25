@@ -14,6 +14,7 @@ cd hunt-the-wumpus
 ```
 3. Compile and run the program.
 ```
+g++ -o wumpus.cpp
 ./wumpus 
 ```
 
